@@ -1,1 +1,3 @@
 fontmake
+ufoLib2
+fonttools[woff]
