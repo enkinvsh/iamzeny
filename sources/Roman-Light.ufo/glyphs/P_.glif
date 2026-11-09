@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="P" format="2">
+  <advance width="1157"/>
+  <unicode hex="0050"/>
+  <outline>
+    <contour>
+      <point x="644" y="1203" type="curve" smooth="yes"/>
+      <point x="211" y="1203" type="line"/>
+      <point x="211" y="594" type="line"/>
+      <point x="644" y="594" type="line" smooth="yes"/>
+      <point x="849.258" y="594"/>
+      <point x="972" y="705"/>
+      <point x="972" y="893" type="curve" smooth="yes"/>
+      <point x="972" y="1090"/>
+      <point x="851.321" y="1203"/>
+    </contour>
+    <contour>
+      <point x="663" y="498" type="curve" smooth="yes"/>
+      <point x="211" y="498" type="line"/>
+      <point x="211" y="0" type="line"/>
+      <point x="109" y="0" type="line"/>
+      <point x="109" y="1301" type="line"/>
+      <point x="653" y="1301" type="line" smooth="yes"/>
+      <point x="906.99" y="1301"/>
+      <point x="1077" y="1139"/>
+      <point x="1077" y="893" type="curve" smooth="yes"/>
+      <point x="1077" y="666"/>
+      <point x="919.188" y="498"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>498</integer>
+            <key>width</key>
+            <integer>96</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1203</integer>
+            <key>width</key>
+            <integer>98</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>109</integer>
+            <key>width</key>
+            <integer>102</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>972</integer>
+            <key>width</key>
+            <integer>105</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

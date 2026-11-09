@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04DD.ss03" format="2">
+  <advance width="1793"/>
+  <outline>
+    <component base="uni0308.ss03" xOffset="583" yOffset="121"/>
+    <component base="uni0436"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>1107</integer>
+            <key>width</key>
+            <integer>295</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>470</integer>
+            <key>width</key>
+            <integer>369</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>948</integer>
+            <key>width</key>
+            <integer>369</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

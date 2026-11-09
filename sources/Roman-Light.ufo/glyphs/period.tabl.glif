@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period.tabl" format="2">
+  <advance width="318"/>
+  <outline>
+    <contour>
+      <point x="75" y="68" type="curve" smooth="yes"/>
+      <point x="75" y="115"/>
+      <point x="112" y="152"/>
+      <point x="159" y="152" type="curve" smooth="yes"/>
+      <point x="206" y="152"/>
+      <point x="243" y="115"/>
+      <point x="243" y="68" type="curve" smooth="yes"/>
+      <point x="243" y="21"/>
+      <point x="206" y="-16"/>
+      <point x="159" y="-16" type="curve" smooth="yes"/>
+      <point x="112" y="-16"/>
+      <point x="75" y="21"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-16</integer>
+            <key>width</key>
+            <integer>168</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>75</integer>
+            <key>width</key>
+            <integer>168</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

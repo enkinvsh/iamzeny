@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.cv02" format="2">
+  <advance width="1769"/>
+  <outline>
+    <contour>
+      <point x="1381" y="141" type="line"/>
+      <point x="1381" y="1160" type="line"/>
+      <point x="391" y="1160" type="line"/>
+      <point x="391" y="141" type="line"/>
+    </contour>
+    <contour>
+      <point x="1680" y="-141" type="line"/>
+      <point x="90" y="-141" type="line"/>
+      <point x="90" y="1439" type="line"/>
+      <point x="1680" y="1439" type="line"/>
+    </contour>
+    <contour>
+      <point x="1010" y="250" type="line"/>
+      <point x="1010" y="484"/>
+      <point x="1086" y="623"/>
+      <point x="1270" y="727" type="curve"/>
+      <point x="1270" y="1021" type="line"/>
+      <point x="502" y="1021" type="line"/>
+      <point x="502" y="746" type="line"/>
+      <point x="910" y="746" type="line"/>
+      <point x="713" y="607"/>
+      <point x="635" y="469"/>
+      <point x="635" y="250" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-141</integer>
+            <key>width</key>
+            <integer>282</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1160</integer>
+            <key>width</key>
+            <integer>279</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>90</integer>
+            <key>width</key>
+            <integer>301</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>635</integer>
+            <key>width</key>
+            <integer>375</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1381</integer>
+            <key>width</key>
+            <integer>299</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

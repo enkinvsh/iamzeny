@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0315" format="2">
+  <advance width="599"/>
+  <unicode hex="0315"/>
+  <anchor x="248" y="900" name="_top-mark"/>
+  <anchor x="248" y="1566" name="top-mark"/>
+  <anchor x="248" y="1000" name="_top2"/>
+  <outline>
+    <contour>
+      <point x="324" y="1566" type="line"/>
+      <point x="648" y="1566" type="line"/>
+      <point x="562" y="1000" type="line"/>
+      <point x="248" y="1000" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>1000</integer>
+            <key>width</key>
+            <integer>566</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>248</integer>
+            <key>width</key>
+            <integer>400</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

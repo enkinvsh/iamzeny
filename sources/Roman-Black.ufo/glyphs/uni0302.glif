@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0302" format="2">
+  <advance width="599"/>
+  <unicode hex="0302"/>
+  <anchor x="303" y="1342" name="top-mark"/>
+  <anchor x="303" y="900" name="_top-mark"/>
+  <anchor x="304" y="1000" name="_top1"/>
+  <outline>
+    <contour>
+      <point x="121" y="1342" type="line"/>
+      <point x="482" y="1342" type="line"/>
+      <point x="742" y="1000" type="line"/>
+      <point x="422" y="1000" type="line"/>
+      <point x="303" y="1174" type="line"/>
+      <point x="182" y="1000" type="line"/>
+      <point x="-139" y="1000" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>1000</integer>
+            <key>width</key>
+            <integer>342</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni033A" format="2">
+  <advance width="1021"/>
+  <unicode hex="033A"/>
+  <anchor x="513" y="0" name="_bottom-mark"/>
+  <anchor x="513" y="-474" name="bottom-mark"/>
+  <anchor x="513" y="0" name="_bottom1"/>
+  <outline>
+    <contour>
+      <point x="190" y="-156" type="line"/>
+      <point x="292" y="-156" type="line"/>
+      <point x="292" y="-378" type="line"/>
+      <point x="730" y="-378" type="line"/>
+      <point x="730" y="-156" type="line"/>
+      <point x="831" y="-156" type="line"/>
+      <point x="831" y="-474" type="line"/>
+      <point x="190" y="-474" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-474</integer>
+            <key>width</key>
+            <integer>318</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-474</integer>
+            <key>width</key>
+            <integer>96</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>190</integer>
+            <key>width</key>
+            <integer>102</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>730</integer>
+            <key>width</key>
+            <integer>101</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

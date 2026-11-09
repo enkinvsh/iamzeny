@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni02C9" format="2">
+  <advance width="779"/>
+  <unicode hex="02C9"/>
+  <outline>
+    <contour>
+      <point x="29" y="1293" type="line"/>
+      <point x="750" y="1293" type="line"/>
+      <point x="750" y="1020" type="line"/>
+      <point x="29" y="1020" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>1020</integer>
+            <key>width</key>
+            <integer>273</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

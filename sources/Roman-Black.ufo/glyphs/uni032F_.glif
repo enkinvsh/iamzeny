@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni032F" format="2">
+  <advance width="599"/>
+  <unicode hex="032F"/>
+  <anchor x="363" y="0" name="_bottom-mark"/>
+  <anchor x="363" y="-457" name="bottom-mark"/>
+  <anchor x="363" y="0" name="_bottom1"/>
+  <outline>
+    <component base="uni0311" xOffset="65" yOffset="-1459"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-350</integer>
+            <key>width</key>
+            <integer>231</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

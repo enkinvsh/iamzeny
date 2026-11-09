@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1EA4" format="2">
+  <advance width="1413"/>
+  <unicode hex="1EA4"/>
+  <outline>
+    <contour>
+      <point x="540" y="1682.39" type="line"/>
+      <point x="861" y="1682.39" type="line"/>
+      <point x="1141" y="1400.39" type="line"/>
+      <point x="811" y="1400.39" type="line"/>
+      <point x="702" y="1534.39" type="line"/>
+      <point x="591" y="1400.39" type="line"/>
+      <point x="260" y="1400.39" type="line"/>
+    </contour>
+    <contour>
+      <point x="1560" y="1852" type="line"/>
+      <point x="1298" y="1570" type="line"/>
+      <point x="1017" y="1570" type="line"/>
+      <point x="1209" y="1852" type="line"/>
+    </contour>
+    <component base="A"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>203</integer>
+            <key>width</key>
+            <integer>297</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1281</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1400</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

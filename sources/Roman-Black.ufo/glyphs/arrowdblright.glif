@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="arrowdblright" format="2">
+  <advance width="1500"/>
+  <unicode hex="21D2"/>
+  <outline>
+    <contour>
+      <point x="1460" y="549" type="line"/>
+      <point x="937" y="29" type="line"/>
+      <point x="602" y="29" type="line"/>
+      <point x="1124" y="549" type="line"/>
+      <point x="601" y="1072" type="line"/>
+      <point x="937" y="1072" type="line"/>
+    </contour>
+    <contour>
+      <point x="1071" y="869" type="line"/>
+      <point x="1071" y="638" type="line"/>
+      <point x="40" y="638" type="line"/>
+      <point x="40" y="869" type="line"/>
+    </contour>
+    <contour>
+      <point x="1071" y="458" type="line"/>
+      <point x="1071" y="229" type="line"/>
+      <point x="40" y="229" type="line"/>
+      <point x="40" y="458" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>602</integer>
+            <key>width</key>
+            <integer>197</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>301</integer>
+            <key>width</key>
+            <integer>197</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

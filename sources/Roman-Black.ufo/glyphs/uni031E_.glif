@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni031E" format="2">
+  <advance width="728"/>
+  <unicode hex="031E"/>
+  <anchor x="363" y="0" name="_bottom-mark"/>
+  <anchor x="363" y="-520" name="bottom-mark"/>
+  <anchor x="363" y="0" name="_bottom1"/>
+  <outline>
+    <contour>
+      <point x="248" y="-303" type="line"/>
+      <point x="8" y="-303" type="line"/>
+      <point x="8" y="-128" type="line"/>
+      <point x="720" y="-128" type="line"/>
+      <point x="720" y="-303" type="line"/>
+      <point x="482" y="-303" type="line"/>
+      <point x="482" y="-520" type="line"/>
+      <point x="248" y="-520" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-520</integer>
+            <key>width</key>
+            <integer>392</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-303</integer>
+            <key>width</key>
+            <integer>175</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>248</integer>
+            <key>width</key>
+            <integer>234</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni02E8.5" format="2">
+  <advance width="554"/>
+  <outline>
+    <contour>
+      <point x="130" y="252" type="line"/>
+      <point x="-88" y="429" type="line"/>
+      <point x="568" y="1300" type="line"/>
+      <point x="684" y="1300" type="line"/>
+      <point x="684" y="1010" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>1280</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

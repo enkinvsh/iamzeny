@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2023" format="2">
+  <advance width="671"/>
+  <unicode hex="2023"/>
+  <outline>
+    <contour>
+      <point x="61" y="312" type="line"/>
+      <point x="61" y="982" type="line"/>
+      <point x="611" y="648" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>61</integer>
+            <key>width</key>
+            <integer>550</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

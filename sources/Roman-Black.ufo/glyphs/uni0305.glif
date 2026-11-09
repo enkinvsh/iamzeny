@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0305" format="2">
+  <unicode hex="0305"/>
+  <outline>
+    <contour>
+      <point x="-1200" y="1770" type="line"/>
+      <point x="100" y="1770" type="line"/>
+      <point x="100" y="1502" type="line"/>
+      <point x="-1200" y="1502" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>1502</integer>
+            <key>width</key>
+            <integer>268</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

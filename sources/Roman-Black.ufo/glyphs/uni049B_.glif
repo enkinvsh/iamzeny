@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni049B" format="2">
+  <advance width="1377"/>
+  <unicode hex="049B"/>
+  <outline>
+    <contour>
+      <point x="774" y="355" type="line"/>
+      <point x="774" y="0" type="line"/>
+      <point x="1006" y="0" type="line"/>
+      <point x="1006" y="-326" type="line"/>
+      <point x="1341" y="-326" type="line"/>
+      <point x="1341" y="355" type="line"/>
+    </contour>
+    <component base="uni043A"/>
+  </outline>
+</glyph>

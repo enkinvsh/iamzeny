@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="divide.tabl.ss03" format="2">
+  <advance width="1250"/>
+  <outline>
+    <contour>
+      <point x="463" y="1109" type="line"/>
+      <point x="791" y="1109" type="line"/>
+      <point x="791" y="775" type="line"/>
+      <point x="463" y="775" type="line"/>
+    </contour>
+    <contour>
+      <point x="463" y="326" type="line"/>
+      <point x="791" y="326" type="line"/>
+      <point x="791" y="-8" type="line"/>
+      <point x="463" y="-8" type="line"/>
+    </contour>
+    <contour>
+      <point x="162" y="699" type="line"/>
+      <point x="1088" y="699" type="line"/>
+      <point x="1088" y="404" type="line"/>
+      <point x="162" y="404" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-8</integer>
+            <key>width</key>
+            <integer>334</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>404</integer>
+            <key>width</key>
+            <integer>295</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>775</integer>
+            <key>width</key>
+            <integer>334</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>463</integer>
+            <key>width</key>
+            <integer>328</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1EAA" format="2">
+  <advance width="1413"/>
+  <unicode hex="1EAA"/>
+  <outline>
+    <contour>
+      <point x="495" y="2000" type="curve" smooth="yes"/>
+      <point x="670.694" y="2000"/>
+      <point x="724.205" y="1919"/>
+      <point x="841" y="1919" type="curve" smooth="yes"/>
+      <point x="901" y="1919"/>
+      <point x="936" y="1945.44"/>
+      <point x="936" y="1990" type="curve"/>
+      <point x="1141" y="1990" type="line"/>
+      <point x="1141" y="1826.49"/>
+      <point x="1035" y="1722"/>
+      <point x="868" y="1722" type="curve" smooth="yes"/>
+      <point x="701.226" y="1722"/>
+      <point x="653.334" y="1798"/>
+      <point x="553" y="1798" type="curve" smooth="yes"/>
+      <point x="507" y="1798"/>
+      <point x="477" y="1765.82"/>
+      <point x="477" y="1715" type="curve"/>
+      <point x="266" y="1715" type="line"/>
+      <point x="266" y="1893.33"/>
+      <point x="352" y="2000"/>
+    </contour>
+    <contour>
+      <point x="540" y="1662.39" type="line"/>
+      <point x="861" y="1662.39" type="line"/>
+      <point x="1141" y="1400.39" type="line"/>
+      <point x="811" y="1400.39" type="line"/>
+      <point x="702" y="1514.39" type="line"/>
+      <point x="591" y="1400.39" type="line"/>
+      <point x="260" y="1400.39" type="line"/>
+    </contour>
+    <component base="A"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>203</integer>
+            <key>width</key>
+            <integer>297</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1281</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1400</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1722</integer>
+            <key>width</key>
+            <integer>197</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1798</integer>
+            <key>width</key>
+            <integer>202</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tbar" format="2">
+  <advance width="585"/>
+  <unicode hex="0167"/>
+  <outline>
+    <contour>
+      <point x="50" y="600" type="line"/>
+      <point x="535" y="600" type="line"/>
+      <point x="535" y="504" type="line"/>
+      <point x="50" y="504" type="line"/>
+    </contour>
+    <contour>
+      <point x="50" y="1000" type="line"/>
+      <point x="535" y="1000" type="line"/>
+      <point x="535" y="904" type="line"/>
+      <point x="50" y="904" type="line"/>
+    </contour>
+    <contour>
+      <point x="242" y="0" type="line"/>
+      <point x="242" y="1260" type="line"/>
+      <point x="341" y="1260" type="line"/>
+      <point x="341" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>504</integer>
+            <key>width</key>
+            <integer>96</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>904</integer>
+            <key>width</key>
+            <integer>96</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>242</integer>
+            <key>width</key>
+            <integer>99</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

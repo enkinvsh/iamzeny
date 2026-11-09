@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Idotaccent" format="2">
+  <advance width="1001"/>
+  <unicode hex="0130"/>
+  <outline>
+    <contour>
+      <point x="285" y="1584" type="curve" smooth="yes"/>
+      <point x="285" y="1703"/>
+      <point x="383" y="1801"/>
+      <point x="502" y="1801" type="curve" smooth="yes"/>
+      <point x="621" y="1801"/>
+      <point x="719" y="1703"/>
+      <point x="719" y="1584" type="curve" smooth="yes"/>
+      <point x="719" y="1465"/>
+      <point x="621" y="1369"/>
+      <point x="502" y="1369" type="curve" smooth="yes"/>
+      <point x="383" y="1369"/>
+      <point x="285" y="1465"/>
+    </contour>
+    <component base="I"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>348</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>953</integer>
+            <key>width</key>
+            <integer>348</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1369</integer>
+            <key>width</key>
+            <integer>432</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>59</integer>
+            <key>width</key>
+            <integer>884</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>285</integer>
+            <key>width</key>
+            <integer>434</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

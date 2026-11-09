@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphen.tabl" format="2">
+  <advance width="1250"/>
+  <outline>
+    <contour>
+      <point x="162" y="721" type="line"/>
+      <point x="1088" y="721" type="line"/>
+      <point x="1088" y="385" type="line"/>
+      <point x="162" y="385" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>385</integer>
+            <key>width</key>
+            <integer>336</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

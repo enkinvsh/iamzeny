@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Nacute.polish" format="2">
+  <advance width="1218"/>
+  <outline>
+    <contour>
+      <point x="1010" y="1301" type="line"/>
+      <point x="1109" y="1301" type="line"/>
+      <point x="1109" y="0" type="line"/>
+      <point x="996" y="0" type="line"/>
+      <point x="211" y="1182" type="line"/>
+      <point x="211" y="0" type="line"/>
+      <point x="109" y="0" type="line"/>
+      <point x="109" y="1301" type="line"/>
+      <point x="250" y="1301" type="line"/>
+      <point x="1010" y="156" type="line"/>
+    </contour>
+    <contour>
+      <point x="883" y="1662" type="line"/>
+      <point x="659" y="1400" type="line"/>
+      <point x="573" y="1400" type="line"/>
+      <point x="756" y="1662" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1281</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1400</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>109</integer>
+            <key>width</key>
+            <integer>102</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1010</integer>
+            <key>width</key>
+            <integer>99</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
