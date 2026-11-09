@@ -618,6 +618,10 @@ lookup ss10StyleSet10inLatinlookup9 {
     sub \uni1EF1.ss03 by \uni1EF1.ss03.ss10 ;
 } ss10StyleSet10inLatinlookup9;
 
+# Каждая фича зарегистрирована для всех languagesystem шрифта. Цифры и пунктуация — Common:
+# шейпер берёт скрипт соседнего текста, и если такой скрипт есть в GSUB, запись DFLT не используется.
+# locl не расширяется: его lookup27 подставляет болгарские формы и на cyrl dflt испортил бы русский.
+
 feature ccmp {
 
  script DFLT;
@@ -681,12 +685,18 @@ feature calt {
      language dflt ;
       lookup caltContextualAlternateslookup26;
 
+ script armn;
+     language dflt ;
+      lookup caltContextualAlternateslookup26;
+
  script bopo;
      language dflt ;
       lookup caltContextualAlternateslookup26;
 
  script cyrl;
      language dflt ;
+      lookup caltContextualAlternateslookup26;
+     language BGR  exclude_dflt;
       lookup caltContextualAlternateslookup26;
 
  script grek;
@@ -695,6 +705,8 @@ feature calt {
 
  script latn;
      language dflt ;
+      lookup caltContextualAlternateslookup26;
+     language PLK  exclude_dflt;
       lookup caltContextualAlternateslookup26;
 } calt;
 
@@ -704,12 +716,18 @@ feature frac {
      language dflt ;
       lookup fracDiagonalFractionslookup22;
 
+ script armn;
+     language dflt ;
+      lookup fracDiagonalFractionslookup22;
+
  script bopo;
      language dflt ;
       lookup fracDiagonalFractionslookup22;
 
  script cyrl;
      language dflt ;
+      lookup fracDiagonalFractionslookup22;
+     language BGR  exclude_dflt;
       lookup fracDiagonalFractionslookup22;
 
  script grek;
@@ -719,6 +737,8 @@ feature frac {
  script latn;
      language dflt ;
       lookup fracDiagonalFractionslookup22;
+     language PLK  exclude_dflt;
+      lookup fracDiagonalFractionslookup22;
 } frac;
 
 feature ss12 {
@@ -727,6 +747,10 @@ feature ss12 {
   };
 
  script DFLT;
+     language dflt ;
+      lookup ss12StyleSet12lookup28;
+
+ script armn;
      language dflt ;
       lookup ss12StyleSet12lookup28;
 
@@ -760,8 +784,28 @@ feature ss11 {
      language dflt ;
       lookup ss11StyleSet11inLatinlookup21;
 
+ script armn;
+     language dflt ;
+      lookup ss11StyleSet11inLatinlookup21;
+
+ script bopo;
+     language dflt ;
+      lookup ss11StyleSet11inLatinlookup21;
+
+ script cyrl;
+     language dflt ;
+      lookup ss11StyleSet11inLatinlookup21;
+     language BGR  exclude_dflt;
+      lookup ss11StyleSet11inLatinlookup21;
+
+ script grek;
+     language dflt ;
+      lookup ss11StyleSet11inLatinlookup21;
+
  script latn;
      language dflt ;
+      lookup ss11StyleSet11inLatinlookup21;
+     language PLK  exclude_dflt;
       lookup ss11StyleSet11inLatinlookup21;
 } ss11;
 
@@ -771,8 +815,28 @@ feature cv05 {
      language dflt ;
       lookup cv05CharacterVariants05inLatinlookup22;
 
+ script armn;
+     language dflt ;
+      lookup cv05CharacterVariants05inLatinlookup22;
+
+ script bopo;
+     language dflt ;
+      lookup cv05CharacterVariants05inLatinlookup22;
+
+ script cyrl;
+     language dflt ;
+      lookup cv05CharacterVariants05inLatinlookup22;
+     language BGR  exclude_dflt;
+      lookup cv05CharacterVariants05inLatinlookup22;
+
+ script grek;
+     language dflt ;
+      lookup cv05CharacterVariants05inLatinlookup22;
+
  script latn;
      language dflt ;
+      lookup cv05CharacterVariants05inLatinlookup22;
+     language PLK  exclude_dflt;
       lookup cv05CharacterVariants05inLatinlookup22;
 } cv05;
 
@@ -782,8 +846,28 @@ feature cv01 {
      language dflt ;
       lookup cv01CharacterVariants01inLatinlookup16;
 
+ script armn;
+     language dflt ;
+      lookup cv01CharacterVariants01inLatinlookup16;
+
+ script bopo;
+     language dflt ;
+      lookup cv01CharacterVariants01inLatinlookup16;
+
+ script cyrl;
+     language dflt ;
+      lookup cv01CharacterVariants01inLatinlookup16;
+     language BGR  exclude_dflt;
+      lookup cv01CharacterVariants01inLatinlookup16;
+
+ script grek;
+     language dflt ;
+      lookup cv01CharacterVariants01inLatinlookup16;
+
  script latn;
      language dflt ;
+      lookup cv01CharacterVariants01inLatinlookup16;
+     language PLK  exclude_dflt;
       lookup cv01CharacterVariants01inLatinlookup16;
 } cv01;
 
@@ -793,8 +877,28 @@ feature cv02 {
      language dflt ;
       lookup cv02CharacterVariants02inLatinlookup17;
 
+ script armn;
+     language dflt ;
+      lookup cv02CharacterVariants02inLatinlookup17;
+
+ script bopo;
+     language dflt ;
+      lookup cv02CharacterVariants02inLatinlookup17;
+
+ script cyrl;
+     language dflt ;
+      lookup cv02CharacterVariants02inLatinlookup17;
+     language BGR  exclude_dflt;
+      lookup cv02CharacterVariants02inLatinlookup17;
+
+ script grek;
+     language dflt ;
+      lookup cv02CharacterVariants02inLatinlookup17;
+
  script latn;
      language dflt ;
+      lookup cv02CharacterVariants02inLatinlookup17;
+     language PLK  exclude_dflt;
       lookup cv02CharacterVariants02inLatinlookup17;
 } cv02;
 
@@ -804,8 +908,28 @@ feature cv03 {
      language dflt ;
       lookup cv03CharacterVariants03inLatinlookup18;
 
+ script armn;
+     language dflt ;
+      lookup cv03CharacterVariants03inLatinlookup18;
+
+ script bopo;
+     language dflt ;
+      lookup cv03CharacterVariants03inLatinlookup18;
+
+ script cyrl;
+     language dflt ;
+      lookup cv03CharacterVariants03inLatinlookup18;
+     language BGR  exclude_dflt;
+      lookup cv03CharacterVariants03inLatinlookup18;
+
+ script grek;
+     language dflt ;
+      lookup cv03CharacterVariants03inLatinlookup18;
+
  script latn;
      language dflt ;
+      lookup cv03CharacterVariants03inLatinlookup18;
+     language PLK  exclude_dflt;
       lookup cv03CharacterVariants03inLatinlookup18;
 } cv03;
 
@@ -815,8 +939,28 @@ feature cv04 {
      language dflt ;
       lookup cv04CharacterVariants04inLatinlookup19;
 
+ script armn;
+     language dflt ;
+      lookup cv04CharacterVariants04inLatinlookup19;
+
+ script bopo;
+     language dflt ;
+      lookup cv04CharacterVariants04inLatinlookup19;
+
+ script cyrl;
+     language dflt ;
+      lookup cv04CharacterVariants04inLatinlookup19;
+     language BGR  exclude_dflt;
+      lookup cv04CharacterVariants04inLatinlookup19;
+
+ script grek;
+     language dflt ;
+      lookup cv04CharacterVariants04inLatinlookup19;
+
  script latn;
      language dflt ;
+      lookup cv04CharacterVariants04inLatinlookup19;
+     language PLK  exclude_dflt;
       lookup cv04CharacterVariants04inLatinlookup19;
 } cv04;
 
@@ -826,8 +970,28 @@ feature dnom {
      language dflt ;
       lookup dnomDenominatorsinLatinlookup12;
 
+ script armn;
+     language dflt ;
+      lookup dnomDenominatorsinLatinlookup12;
+
+ script bopo;
+     language dflt ;
+      lookup dnomDenominatorsinLatinlookup12;
+
+ script cyrl;
+     language dflt ;
+      lookup dnomDenominatorsinLatinlookup12;
+     language BGR  exclude_dflt;
+      lookup dnomDenominatorsinLatinlookup12;
+
+ script grek;
+     language dflt ;
+      lookup dnomDenominatorsinLatinlookup12;
+
  script latn;
      language dflt ;
+      lookup dnomDenominatorsinLatinlookup12;
+     language PLK  exclude_dflt;
       lookup dnomDenominatorsinLatinlookup12;
 } dnom;
 
@@ -837,8 +1001,28 @@ feature numr {
      language dflt ;
       lookup numrNumeratorsinLatinlookup13;
 
+ script armn;
+     language dflt ;
+      lookup numrNumeratorsinLatinlookup13;
+
+ script bopo;
+     language dflt ;
+      lookup numrNumeratorsinLatinlookup13;
+
+ script cyrl;
+     language dflt ;
+      lookup numrNumeratorsinLatinlookup13;
+     language BGR  exclude_dflt;
+      lookup numrNumeratorsinLatinlookup13;
+
+ script grek;
+     language dflt ;
+      lookup numrNumeratorsinLatinlookup13;
+
  script latn;
      language dflt ;
+      lookup numrNumeratorsinLatinlookup13;
+     language PLK  exclude_dflt;
       lookup numrNumeratorsinLatinlookup13;
 } numr;
 
@@ -848,8 +1032,28 @@ feature subs {
      language dflt ;
       lookup subsSubscriptinLatinlookup14;
 
+ script armn;
+     language dflt ;
+      lookup subsSubscriptinLatinlookup14;
+
+ script bopo;
+     language dflt ;
+      lookup subsSubscriptinLatinlookup14;
+
+ script cyrl;
+     language dflt ;
+      lookup subsSubscriptinLatinlookup14;
+     language BGR  exclude_dflt;
+      lookup subsSubscriptinLatinlookup14;
+
+ script grek;
+     language dflt ;
+      lookup subsSubscriptinLatinlookup14;
+
  script latn;
      language dflt ;
+      lookup subsSubscriptinLatinlookup14;
+     language PLK  exclude_dflt;
       lookup subsSubscriptinLatinlookup14;
 } subs;
 
@@ -859,8 +1063,28 @@ feature sups {
      language dflt ;
       lookup supsSuperscriptinLatinlookup15;
 
+ script armn;
+     language dflt ;
+      lookup supsSuperscriptinLatinlookup15;
+
+ script bopo;
+     language dflt ;
+      lookup supsSuperscriptinLatinlookup15;
+
+ script cyrl;
+     language dflt ;
+      lookup supsSuperscriptinLatinlookup15;
+     language BGR  exclude_dflt;
+      lookup supsSuperscriptinLatinlookup15;
+
+ script grek;
+     language dflt ;
+      lookup supsSuperscriptinLatinlookup15;
+
  script latn;
      language dflt ;
+      lookup supsSuperscriptinLatinlookup15;
+     language PLK  exclude_dflt;
       lookup supsSuperscriptinLatinlookup15;
 } sups;
 
@@ -870,8 +1094,28 @@ feature tnum {
      language dflt ;
       lookup tnumTabularNumbersinLatinlookup11;
 
+ script armn;
+     language dflt ;
+      lookup tnumTabularNumbersinLatinlookup11;
+
+ script bopo;
+     language dflt ;
+      lookup tnumTabularNumbersinLatinlookup11;
+
+ script cyrl;
+     language dflt ;
+      lookup tnumTabularNumbersinLatinlookup11;
+     language BGR  exclude_dflt;
+      lookup tnumTabularNumbersinLatinlookup11;
+
+ script grek;
+     language dflt ;
+      lookup tnumTabularNumbersinLatinlookup11;
+
  script latn;
      language dflt ;
+      lookup tnumTabularNumbersinLatinlookup11;
+     language PLK  exclude_dflt;
       lookup tnumTabularNumbersinLatinlookup11;
 } tnum;
 
@@ -881,8 +1125,28 @@ feature zero {
      language dflt ;
       lookup zeroSlashedZeroinLatinlookup10;
 
+ script armn;
+     language dflt ;
+      lookup zeroSlashedZeroinLatinlookup10;
+
+ script bopo;
+     language dflt ;
+      lookup zeroSlashedZeroinLatinlookup10;
+
+ script cyrl;
+     language dflt ;
+      lookup zeroSlashedZeroinLatinlookup10;
+     language BGR  exclude_dflt;
+      lookup zeroSlashedZeroinLatinlookup10;
+
+ script grek;
+     language dflt ;
+      lookup zeroSlashedZeroinLatinlookup10;
+
  script latn;
      language dflt ;
+      lookup zeroSlashedZeroinLatinlookup10;
+     language PLK  exclude_dflt;
       lookup zeroSlashedZeroinLatinlookup10;
 } zero;
 
@@ -895,12 +1159,28 @@ feature ss01 {
      language dflt ;
       lookup ss01StyleSet1inLatinlookup0;
 
+ script armn;
+     language dflt ;
+      lookup ss01StyleSet1inLatinlookup0;
+
+ script bopo;
+     language dflt ;
+      lookup ss01StyleSet1inLatinlookup0;
+
  script cyrl;
+     language dflt ;
+      lookup ss01StyleSet1inLatinlookup0;
+     language BGR  exclude_dflt;
+      lookup ss01StyleSet1inLatinlookup0;
+
+ script grek;
      language dflt ;
       lookup ss01StyleSet1inLatinlookup0;
 
  script latn;
      language dflt ;
+      lookup ss01StyleSet1inLatinlookup0;
+     language PLK  exclude_dflt;
       lookup ss01StyleSet1inLatinlookup0;
 } ss01;
 
@@ -913,8 +1193,28 @@ feature ss02 {
      language dflt ;
       lookup ss02StyleSet2inLatinlookup1;
 
+ script armn;
+     language dflt ;
+      lookup ss02StyleSet2inLatinlookup1;
+
+ script bopo;
+     language dflt ;
+      lookup ss02StyleSet2inLatinlookup1;
+
+ script cyrl;
+     language dflt ;
+      lookup ss02StyleSet2inLatinlookup1;
+     language BGR  exclude_dflt;
+      lookup ss02StyleSet2inLatinlookup1;
+
+ script grek;
+     language dflt ;
+      lookup ss02StyleSet2inLatinlookup1;
+
  script latn;
      language dflt ;
+      lookup ss02StyleSet2inLatinlookup1;
+     language PLK  exclude_dflt;
       lookup ss02StyleSet2inLatinlookup1;
 } ss02;
 
@@ -927,12 +1227,28 @@ feature ss03 {
      language dflt ;
       lookup ss03StyleSet3inLatinlookup2;
 
+ script armn;
+     language dflt ;
+      lookup ss03StyleSet3inLatinlookup2;
+
+ script bopo;
+     language dflt ;
+      lookup ss03StyleSet3inLatinlookup2;
+
  script cyrl;
+     language dflt ;
+      lookup ss03StyleSet3inLatinlookup2;
+     language BGR  exclude_dflt;
+      lookup ss03StyleSet3inLatinlookup2;
+
+ script grek;
      language dflt ;
       lookup ss03StyleSet3inLatinlookup2;
 
  script latn;
      language dflt ;
+      lookup ss03StyleSet3inLatinlookup2;
+     language PLK  exclude_dflt;
       lookup ss03StyleSet3inLatinlookup2;
 } ss03;
 
@@ -945,8 +1261,28 @@ feature ss04 {
      language dflt ;
       lookup ss04StyleSet4inLatinlookup3;
 
+ script armn;
+     language dflt ;
+      lookup ss04StyleSet4inLatinlookup3;
+
+ script bopo;
+     language dflt ;
+      lookup ss04StyleSet4inLatinlookup3;
+
+ script cyrl;
+     language dflt ;
+      lookup ss04StyleSet4inLatinlookup3;
+     language BGR  exclude_dflt;
+      lookup ss04StyleSet4inLatinlookup3;
+
+ script grek;
+     language dflt ;
+      lookup ss04StyleSet4inLatinlookup3;
+
  script latn;
      language dflt ;
+      lookup ss04StyleSet4inLatinlookup3;
+     language PLK  exclude_dflt;
       lookup ss04StyleSet4inLatinlookup3;
 } ss04;
 
@@ -959,12 +1295,28 @@ feature ss05 {
      language dflt ;
       lookup ss05StyleSet5inLatinlookup4;
 
+ script armn;
+     language dflt ;
+      lookup ss05StyleSet5inLatinlookup4;
+
+ script bopo;
+     language dflt ;
+      lookup ss05StyleSet5inLatinlookup4;
+
  script cyrl;
+     language dflt ;
+      lookup ss05StyleSet5inLatinlookup4;
+     language BGR  exclude_dflt;
+      lookup ss05StyleSet5inLatinlookup4;
+
+ script grek;
      language dflt ;
       lookup ss05StyleSet5inLatinlookup4;
 
  script latn;
      language dflt ;
+      lookup ss05StyleSet5inLatinlookup4;
+     language PLK  exclude_dflt;
       lookup ss05StyleSet5inLatinlookup4;
 } ss05;
 
@@ -977,12 +1329,28 @@ feature ss06 {
      language dflt ;
       lookup ss06StyleSet6inLatinlookup5;
 
+ script armn;
+     language dflt ;
+      lookup ss06StyleSet6inLatinlookup5;
+
+ script bopo;
+     language dflt ;
+      lookup ss06StyleSet6inLatinlookup5;
+
  script cyrl;
+     language dflt ;
+      lookup ss06StyleSet6inLatinlookup5;
+     language BGR  exclude_dflt;
+      lookup ss06StyleSet6inLatinlookup5;
+
+ script grek;
      language dflt ;
       lookup ss06StyleSet6inLatinlookup5;
 
  script latn;
      language dflt ;
+      lookup ss06StyleSet6inLatinlookup5;
+     language PLK  exclude_dflt;
       lookup ss06StyleSet6inLatinlookup5;
 } ss06;
 
@@ -995,12 +1363,28 @@ feature ss07 {
      language dflt ;
       lookup ss07StyleSet7inLatinlookup6;
 
+ script armn;
+     language dflt ;
+      lookup ss07StyleSet7inLatinlookup6;
+
+ script bopo;
+     language dflt ;
+      lookup ss07StyleSet7inLatinlookup6;
+
  script cyrl;
+     language dflt ;
+      lookup ss07StyleSet7inLatinlookup6;
+     language BGR  exclude_dflt;
+      lookup ss07StyleSet7inLatinlookup6;
+
+ script grek;
      language dflt ;
       lookup ss07StyleSet7inLatinlookup6;
 
  script latn;
      language dflt ;
+      lookup ss07StyleSet7inLatinlookup6;
+     language PLK  exclude_dflt;
       lookup ss07StyleSet7inLatinlookup6;
 } ss07;
 
@@ -1013,8 +1397,28 @@ feature ss08 {
      language dflt ;
       lookup ss08StyleSet8inLatinlookup7;
 
+ script armn;
+     language dflt ;
+      lookup ss08StyleSet8inLatinlookup7;
+
+ script bopo;
+     language dflt ;
+      lookup ss08StyleSet8inLatinlookup7;
+
+ script cyrl;
+     language dflt ;
+      lookup ss08StyleSet8inLatinlookup7;
+     language BGR  exclude_dflt;
+      lookup ss08StyleSet8inLatinlookup7;
+
+ script grek;
+     language dflt ;
+      lookup ss08StyleSet8inLatinlookup7;
+
  script latn;
      language dflt ;
+      lookup ss08StyleSet8inLatinlookup7;
+     language PLK  exclude_dflt;
       lookup ss08StyleSet8inLatinlookup7;
 } ss08;
 
@@ -1027,8 +1431,28 @@ feature ss09 {
      language dflt ;
       lookup ss09StyleSet9inLatinlookup8;
 
+ script armn;
+     language dflt ;
+      lookup ss09StyleSet9inLatinlookup8;
+
+ script bopo;
+     language dflt ;
+      lookup ss09StyleSet9inLatinlookup8;
+
+ script cyrl;
+     language dflt ;
+      lookup ss09StyleSet9inLatinlookup8;
+     language BGR  exclude_dflt;
+      lookup ss09StyleSet9inLatinlookup8;
+
+ script grek;
+     language dflt ;
+      lookup ss09StyleSet9inLatinlookup8;
+
  script latn;
      language dflt ;
+      lookup ss09StyleSet9inLatinlookup8;
+     language PLK  exclude_dflt;
       lookup ss09StyleSet9inLatinlookup8;
 } ss09;
 
@@ -1041,8 +1465,28 @@ feature ss10 {
      language dflt ;
       lookup ss10StyleSet10inLatinlookup9;
 
+ script armn;
+     language dflt ;
+      lookup ss10StyleSet10inLatinlookup9;
+
+ script bopo;
+     language dflt ;
+      lookup ss10StyleSet10inLatinlookup9;
+
+ script cyrl;
+     language dflt ;
+      lookup ss10StyleSet10inLatinlookup9;
+     language BGR  exclude_dflt;
+      lookup ss10StyleSet10inLatinlookup9;
+
+ script grek;
+     language dflt ;
+      lookup ss10StyleSet10inLatinlookup9;
+
  script latn;
      language dflt ;
+      lookup ss10StyleSet10inLatinlookup9;
+     language PLK  exclude_dflt;
       lookup ss10StyleSet10inLatinlookup9;
 } ss10;
 
@@ -3842,24 +4286,41 @@ feature kern {
       lookup kernHorizontalKerninginCyrilliclookup3;
       lookup kernHorizontalKerninglookup4;
 
+ script armn;
+     language dflt ;
+      lookup kernHorizontalKerninglookup6;
+      lookup kernHorizontalKerninginLatinlookup1;
+      lookup kernHorizontalKerninginLatinlookup0;
+      lookup kernHorizontalKerninginCyrilliclookup3;
+      lookup kernHorizontalKerninglookup4;
+
  script bopo;
      language dflt ;
       lookup kernHorizontalKerninglookup6;
+      lookup kernHorizontalKerninginLatinlookup1;
+      lookup kernHorizontalKerninginLatinlookup0;
       lookup kernHorizontalKerninginCyrilliclookup3;
       lookup kernHorizontalKerninglookup4;
 
  script cyrl;
      language dflt ;
       lookup kernHorizontalKerninglookup6;
+      lookup kernHorizontalKerninginLatinlookup1;
+      lookup kernHorizontalKerninginLatinlookup0;
       lookup kernHorizontalKerninginCyrilliclookup3;
       lookup kernHorizontalKerninglookup4;
      language BGR  exclude_dflt;
       lookup kernHorizontalKerninglookup6;
+      lookup kernHorizontalKerninginLatinlookup1;
+      lookup kernHorizontalKerninginLatinlookup0;
+      lookup kernHorizontalKerninginCyrilliclookup3;
       lookup kernHorizontalKerninglookup4;
 
  script grek;
      language dflt ;
       lookup kernHorizontalKerninglookup6;
+      lookup kernHorizontalKerninginLatinlookup1;
+      lookup kernHorizontalKerninginLatinlookup0;
       lookup kernHorizontalKerninginCyrilliclookup3;
       lookup kernHorizontalKerninglookup4;
 
@@ -3872,6 +4333,8 @@ feature kern {
       lookup kernHorizontalKerninglookup4;
      language PLK  exclude_dflt;
       lookup kernHorizontalKerninglookup6;
+      lookup kernHorizontalKerninginLatinlookup1;
+      lookup kernHorizontalKerninginLatinlookup0;
       lookup kernHorizontalKerninginCyrilliclookup3;
       lookup kernHorizontalKerninglookup4;
 } kern;
@@ -3882,12 +4345,18 @@ feature mark {
      language dflt ;
       lookup markMarkPositioninglookup2;
 
+ script armn;
+     language dflt ;
+      lookup markMarkPositioninglookup2;
+
  script bopo;
      language dflt ;
       lookup markMarkPositioninglookup2;
 
  script cyrl;
      language dflt ;
+      lookup markMarkPositioninglookup2;
+     language BGR  exclude_dflt;
       lookup markMarkPositioninglookup2;
 
  script grek;
@@ -3896,6 +4365,8 @@ feature mark {
 
  script latn;
      language dflt ;
+      lookup markMarkPositioninglookup2;
+     language PLK  exclude_dflt;
       lookup markMarkPositioninglookup2;
 } mark;
 
